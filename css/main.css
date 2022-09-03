@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.player1 {
+  width: 30%;
+  height: 100px;
+  background-color: dodgerblue;
+  -webkit-animation-name: race;
+          animation-name: race;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  border-radius: 15px;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player2 {
+  width: 30%;
+  height: 100px;
+  background-color: aqua;
+  -webkit-animation-name: race;
+          animation-name: race;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  border-radius: 15px;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player3 {
+  width: 30%;
+  height: 100px;
+  background-color: gold;
+  -webkit-animation-name: race;
+          animation-name: race;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  border-radius: 15px;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player4 {
+  width: 30%;
+  height: 100px;
+  background-color: red;
+  -webkit-animation-name: race;
+          animation-name: race;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  border-radius: 15px;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player5 {
+  width: 30%;
+  height: 100px;
+  background-color: dodgerblue;
+  -webkit-animation-name: race;
+          animation-name: race;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  border-radius: 15px;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@-webkit-keyframes race {
+  to {
+    transform: translateX(80vw) rotate(360deg);
+  }
+}
+
+@keyframes race {
+  to {
+    transform: translateX(80vw) rotate(360deg);
+  }
+}/*# sourceMappingURL=main.css.map */
