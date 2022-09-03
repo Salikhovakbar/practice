@@ -4,6 +4,12 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+body{
+    background-image: url(../images/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 @mixin boxstyle ($main-color, $main-function) {
     width: 30%;
     height: 100px;
@@ -38,5 +44,28 @@
   @keyframes race {
     to{
         transform: translateX(80vw) rotate(360deg);
+    }
+  }
+  .head{
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+    animation-name: br;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    background-color: aquamarine;
+    width: 30%;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+  }
+  @keyframes br {
+    to{
+        transform: rotate(360deg) scale(3);
+        background-color: deeppink;
     }
   }

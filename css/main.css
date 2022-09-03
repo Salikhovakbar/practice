@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(../images/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .player1 {
   width: 30%;
   height: 100px;
@@ -129,5 +136,40 @@
 @keyframes race {
   to {
     transform: translateX(80vw) rotate(360deg);
+  }
+}
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  -webkit-animation-name: br;
+          animation-name: br;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  background-color: aquamarine;
+  width: 30%;
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  color: white;
+}
+
+@-webkit-keyframes br {
+  to {
+    transform: rotate(360deg) scale(3);
+    background-color: deeppink;
+  }
+}
+
+@keyframes br {
+  to {
+    transform: rotate(360deg) scale(3);
+    background-color: deeppink;
   }
 }/*# sourceMappingURL=main.css.map */
